@@ -2,6 +2,7 @@ body {
     font-family: Verdana, Arial, sans-serif;
 }
 
+
 table {
     border-collapse: collapse;
     font-size: 16px;
@@ -10,6 +11,7 @@ table {
     width: 100%;
 }
 
+
 thead {
     background-color: #b7d0ff;
     font-weight: bold;
@@ -17,10 +19,13 @@ thead {
     border-bottom: 2px solid gray;
 }
 
+
+
 tbody {
     padding: 6px;
     border-bottom: 1px gray;
 }
+
 
 .center {
     margin: auto;
@@ -28,17 +33,20 @@ tbody {
     width: 60%;
 }
 
+
 h1 {
     text-align: center;
 }
 
-tr:nth-child(even) {
+
+
+tbody > tr:nth-child(even) {
     background-color: #f2f2f2;
 }
-tr:nth-child(odd) {
+
+tbody > tr:nth-child(odd) { /* unless targeted to tbody, this one overwrites everything! */
     background-color: #ffffff;
 }
-
 
 
 
