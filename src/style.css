@@ -3,7 +3,7 @@ body {
 }
 
 
-thead > tr {
+thead > tr > th { /* Update: this is not enabled, or is overwritten later! */
     background-color: #b7d0ff;
     font-weight: bold;
     padding: 12px 0px 12px 6px;
@@ -11,7 +11,7 @@ thead > tr {
 }
 
 
-tbody > tr {
+tbody > tr > td { /* Update: this is PROBABLY not enabled, or is overwritten later! */
     padding: 6px;
     border-bottom: 1px solid gray
 }
