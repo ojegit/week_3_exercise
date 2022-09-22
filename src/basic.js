@@ -1,6 +1,3 @@
-/*
-add initializer here
-*/
 
 var dataTable = document.getElementById("data-table")
 
